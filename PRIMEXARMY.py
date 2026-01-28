@@ -2,9 +2,9 @@ import os, time, json, random, string, telebot, datetime, subprocess
 from telebot import types
 
 # --- [ CONFIG ] ---
-TOKEN = '8348509991:AAETlFaswrYW83uv6SvahNevIlUO_gw5EFY'
+TOKEN = '8531012202:AAGDnt1t_OvjRz8wUaPGPoHJP56Xn8pFDFk'
 bot = telebot.TeleBot(TOKEN)
-ADMIN_ID = "2109683176" 
+ADMIN_ID = "8531012202" 
 USER_FILE, KEY_FILE = "users.json", "keys.json"
 
 def load_data():
